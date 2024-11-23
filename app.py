@@ -40,7 +40,7 @@ def login():
             return jsonify({
                 "message": "Inicio de sesión exitoso",
                 "user": user_data,
-                "redirect": "http://localhost:5503/pages/index.html"  # Ruta absoluta para redirigir al frontend
+                "redirect": "https://angelatovars.github.io/proyecto-autodidacta-frontend/index.html"  # Ruta absoluta para redirigir al frontend
             }), 200
         else:
             return jsonify({"message": "Correo o contraseña incorrectos"}), 401  # 401 para credenciales incorrectas
