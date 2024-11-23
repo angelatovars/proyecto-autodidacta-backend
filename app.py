@@ -11,10 +11,10 @@ CORS(app)  # Esto permitirá que cualquier origen pueda hacer solicitudes a tu s
 # Función para crear la conexión con la base de datos MySQL
 def create_connection():
     return pymysql.connect(
-        host='localhost',
-        user='root',
-        password='',
-        db='juegos',
+        host='bzfd6hwcfpo8wix0ovtb-mysql.services.clever-cloud.com',
+        user='ujqw6wjpc7ndaw9w',
+        password='GZKuuDdhcJzJOfoHM7x5',
+        db='bzfd6hwcfpo8wix0ovtb',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
     )
